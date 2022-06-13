@@ -10,23 +10,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - I first thought of an Open-Redirect vulnerablity possibility and entered a random site as the value for the "next" parameter.
 - Sad, this didn't work.
 - Then, I thought of entering some JavaScript code into the parameter and noticed that the site of responding as per my code.
-- I directly went for it. I entered the XSS payload <script>alert(document.cookie)</script> and alas! 
+- I directly went for it. I entered an XSS payload and alas! 
 - The page responded with my site cookie.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](blob:https://web.whatsapp.com/dcfe51d5-b212-45b0-b548-6f21b84e4e5b)
 ```
