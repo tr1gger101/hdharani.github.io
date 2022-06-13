@@ -11,7 +11,8 @@ In this blog, I write on how I found some web-application vulnerabilites.
 - Sad, this didn't work.
 - Then, I thought of entering some JavaScript code into the parameter and noticed that the site of responding as per my code.
 - I directly went for it. I entered an XSS payload and alas! 
-- The page responded with my site cookie.
+- The page responded with my site's cookie.
+- They fixed the vulnerability but unfortunately, there was so acknowledgement from their side :cry:
 
 ![Image](/bug.jpg)
 
