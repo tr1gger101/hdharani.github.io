@@ -1,12 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Harshit's Blog
 
-You can use the [editor on GitHub](https://github.com/tr1gger101/tr1gger101.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+In this blog, I write on how I found some web-application vulnerabilites.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### PicsArt's DOM Based XSS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Just like most websites, PicsArt too uses the "Sign in with Google" function. As I was just playing around with this function, I noticed that there was a "next" parameter in the URL after I logged in through Google. 
+- I first thought of an Open-Redirect vulnerablity possibility and entered a random site as the value for the "next" parameter.
+- Sad, this didn't work.
+- Then, I thought of entering some JavaScript code into the parameter and noticed that the site of responding as per my code.
+- I directly went for it. I entered the XSS payload <script>alert(document.cookie)</script> and alas! 
+- The page responded with my site cookie.
 
 ```markdown
 Syntax highlighted code block
@@ -23,7 +28,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](blob:https://web.whatsapp.com/dcfe51d5-b212-45b0-b548-6f21b84e4e5b)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
