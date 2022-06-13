@@ -13,5 +13,5 @@ In this blog, I write on how I found some web-application vulnerabilites.
 - I directly went for it. I entered an XSS payload and alas! 
 - The page responded with my site cookie.
 
-![Image](/blob/main/bug.jpg)
+![Image](/main/bug.jpg)
 
