@@ -13,5 +13,5 @@ In this blog, I write on how I found some web-application vulnerabilites.
 - I directly went for it. I entered an XSS payload and alas! 
 - The page responded with my site cookie.
 
-![Image](https://drive.google.com/file/d/1Obb25cvBSPTvQ5C407TT-dDTYsJ-AR1X/view?usp=sharing)
+![Image](https://github.com/tr1gger101/tr1gger101.github.io/blob/main/bug.jpg)
 
