@@ -14,7 +14,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - The page responded with my site cookie.
 
 
-[Link](url) and ![Image](blob:https://web.whatsapp.com/dcfe51d5-b212-45b0-b548-6f21b84e4e5b)
+[Link](url) and ![Image](https://postimg.cc/DSWszRQ2)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
