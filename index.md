@@ -17,7 +17,7 @@ In this blog, I write on how I found some web-application vulnerabilites.
  <img src="/bug.jpg" width="500" height="500">
  
  
- ## IDOR on my college's website
+ ### IDOR on my college's website
  
 - This was a pretty basic finding.
 - The URL had an integer as their profile id's for example https://www.example.com/profile/1
