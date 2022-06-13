@@ -14,5 +14,4 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - The page responded with my site cookie.
 
 ![Image](https://postimg.cc/DSWszRQ2)
-```
 
