@@ -15,4 +15,13 @@ In this blog, I write on how I found some web-application vulnerabilites.
 - They fixed the vulnerability but unfortunately, there was no acknowledgement from their side 😢
 
  <img src="/bug.jpg" width="500" height="500">
+ 
+ 
+ ### IDOR on my college's website
+ 
+- This was a pretty basic finding.
+- The URL had an integer as their profile id's for example https://www.example.com/profile/1
+- The page displayed personal details of every student enrolled in the college.
+- Upon changing the profile id to a different integer, it displayed details of the student corresponding to their id.
+- This leaked personal details of students.
 
