@@ -14,5 +14,5 @@ In this blog, I write on how I found some web-application vulnerabilites.
 - The page responded with my site's cookie.
 - They fixed the vulnerability but unfortunately, there was no acknowledgement from their side 😢
 
- <img src="/bug.jpg" width="100" height="100">
+ <img src="/bug.jpg" width="500" height="500">
 
