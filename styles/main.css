@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 10;
+    background-color: #ffffff;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 0px;
+}
+
+.left-profile {
+    width: 20%;
+    text-align: left;
+}
+
+.avatar {
+    border-radius: 60%;
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.bio {
+    text-align: center;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.info p, .info a {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.info img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.about-me {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.about-me h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+/* General styles remain unchanged */
+
+.work-page .container {
+    margin: 5px auto; /* Reduced margin for the work page */
+    padding: 0 5px;
+}
+
+.work-page .work-education h2 {
+    font-size: 24px; /* Reduced font size for headings */
+    color: #333;
+    margin-top: 5px; /* Reduced margin */
+    margin-bottom: 5px; /* Reduced margin */
+    border-bottom: 1px solid #ddd; /* Subtler border */
+    padding-bottom: 1px; /* Reduced padding */
+}
+
+.work-page .work-entry, .work-page .education-entry {
+    margin-bottom: 5px; /* Reduced margin between entries */
+}
+
+.work-page .work-entry h3, .work-page .education-entry h3 {
+    font-size: 20px; /* Slightly reduced font size */
+    color: #555;
+    margin-bottom: 2px; /* Reduced margin */
+}
+
+.work-page .work-entry p, .work-page .education-entry p {
+    margin-bottom: 2px; /* Reduced margin between paragraphs */
+    font-size: 14px; /* Reduced font size for paragraph text */
+    color: #666;
+}
+.contact-page .container {
+    padding-left: 30px; /* Adds space to the left side */
+    padding-top: 20px;  /* Adds space at the top */
+}
+
+/* Optional: Adjust margin for h2 to ensure it doesn't stick to the top of the container */
+.contact-page h2 {
+    margin-top: 10px;
+}
+
+/* Contact page specific styles */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto; /* Centers the container with top and bottom spacing */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contact-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
